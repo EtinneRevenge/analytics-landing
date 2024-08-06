@@ -37,12 +37,15 @@
     align-items: center;
 
 
+
+
     nav {
         flex-grow: 1;
     }
 
 
     &__logo {
+        z-index: 2;
         display: flex;
         align-items: center;
         margin-right: 81.98px;
@@ -64,6 +67,7 @@
 
 .header__menu {
 
+    z-index: 2;
 
     &-list {
         display: flex;
