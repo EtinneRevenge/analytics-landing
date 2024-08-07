@@ -58,6 +58,8 @@
     justify-content: space-between;
 
 
+
+
 }
 
 .rates-item {
@@ -134,7 +136,14 @@
         }
 
         .rates-item__order-btn {
-            @include btn($pink, $pink, 68px, #fff, 16px, 15px, 80px)
+            @include btn($pink, $pink, 68px, #fff, 16px, 15px, 80px);
+
+            transition: all 0.5s;
+
+
+            &:hover {
+                @include btn($pink, transparent, 68px, $pink, 16px, 15px, 80px);
+            }
         }
 
     }
